@@ -1,12 +1,27 @@
-# Torre de Hanoi 🏰
+# 🏰 Torres de Hanoi en Python
 
-Este proyecto implementa el clásico **problema de la Torre de Hanoi** en Python.
+Este proyecto implementa el clásico problema de las **Torres de Hanoi** utilizando recursión en Python.  
+El programa permite al usuario ingresar un número de discos (entre 1 y 10) y muestra paso a paso los movimientos necesarios para resolver el rompecabezas.
 
-## 📖 Descripción
-El problema de la Torre de Hanoi consiste en mover una pila de discos desde un poste inicial hasta un poste final, utilizando un poste auxiliar, siguiendo estas reglas:
+---
 
-1. Solo se puede mover un disco a la vez.
-2. Un disco más grande nunca puede colocarse sobre uno más pequeño.
-3. Se deben mover todos los discos desde el poste inicial hasta el final.
+## 📋 Requisitos
 
-El número mínimo de movimientos necesarios es:
+- Python 3.7 o superior  
+- Consola o terminal para ejecutar el programa
+
+---
+La cosola va solicitar un número entre 1 a 10.
+Ingrese el número de discos (máximo 10): 3
+
+Resolviendo Torre de Hanoi con 3 discos:
+Mover disco 1 de I a F
+Mover disco 2 de I a A
+Mover disco 1 de F a A
+Mover disco 3 de I a F
+Mover disco 1 de A a I
+Mover disco 2 de A a F
+Mover disco 1 de I a F
+
+El número mínimo de movimientos es: 7
+
