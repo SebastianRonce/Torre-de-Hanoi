@@ -22,3 +22,10 @@ try:
         hanoi(discos)
         print(f"\nEl número mínimo de movimientos es: {2**discos - 1}")
 
+except ValueError:
+    # Capturar error si el usuario no ingresa un número
+    print("Error: Debe ingresar un número entero válido")
+except Exception as e:
+    # Capturar cualquier otro error inesperado
+    print(f"Error inesperado: {e}")
+
