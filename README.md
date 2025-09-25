@@ -12,16 +12,16 @@ El programa permite al usuario ingresar un número de discos (entre 1 y 10) y mu
 
 ---
 La cosola va solicitar un número entre 1 a 10.
-Ingrese el número de discos (máximo 10): 3
+- Ingrese el número de discos (máximo 10): 3
 
-Resolviendo Torre de Hanoi con 3 discos:
-Mover disco 1 de I a F
-Mover disco 2 de I a A
-Mover disco 1 de F a A
-Mover disco 3 de I a F
-Mover disco 1 de A a I
-Mover disco 2 de A a F
-Mover disco 1 de I a F
+- Resolviendo Torre de Hanoi con 3 discos:
+- Mover disco 1 de I a F
+- Mover disco 2 de I a A
+- Mover disco 1 de F a A
+- Mover disco 3 de I a F
+- Mover disco 1 de A a I
+- Mover disco 2 de A a F
+- Mover disco 1 de I a F
 
-El número mínimo de movimientos es: 7
+- El número mínimo de movimientos es: 7
 
