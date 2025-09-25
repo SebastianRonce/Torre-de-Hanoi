@@ -1,4 +1,4 @@
-def hanoi(n, inc="I", aux="A", fin="F"):
+def hanoi(n, inc="Ini", aux="Axi", fin="Fin"):
     if n > 0:
         # Paso 1: Mover n-1 discos de la torre inicial a la auxiliar
         hanoi(n - 1, inc, fin, aux)
@@ -28,4 +28,3 @@ except ValueError:
 except Exception as e:
     # Capturar cualquier otro error inesperado
     print(f"Error inesperado: {e}")
-
